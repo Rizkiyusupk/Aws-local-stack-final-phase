@@ -13,7 +13,7 @@ begitu langsung saja masuk ke pembahasanya
 | **Jenkins** | 7 cores | 7GB  | 240GB   |                Wlan                 |
 
 
-![sdub](/asset/workflow-aws-2 (1).png)
+![sdub](/asset/workflow-aws-2.png)
 
 ### Tools
 - **Wsl** : v0.2.1
