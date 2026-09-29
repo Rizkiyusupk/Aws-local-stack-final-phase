@@ -1,0 +1,13 @@
+[Jenkins]
+rizky ansible_host=ip-laptop2 ansible_user=user-laptop2 ansible_password=password-laptop2
+
+[masters]
+k8s-master ansible_host=ip-node-master ansible_user=user-node ansible_password=password-node
+
+[workers]
+k8s-worker1 ansible_host=ip-node-worker1 ansible_user=user-node ansible_password=password-node
+k8s-worker2 ansible_host=ip-node-worker2 ansible_user=user-node ansible_password=password-node
+
+
+[all:vars]
+ansible_ssh_common_args='-o ProxyJump=rizki@ip-laptop1 -o StrictHostKeyChecking=no'
