@@ -62,12 +62,9 @@ Untuk structure folder yang digunakan dalam projek ini ada tiga yang pertama itu
 
 ```
 terraform-setup/
-├── .terraform/
 ├── compute.tf
 ├── main.tf
 ├── prep-vm.tf
-├── terraform.tfstate
-├── terraform.tfstate.backup
 ├── s3.tf
 ├── sns.tf
 ├── sqs.tf
@@ -82,10 +79,9 @@ terraform-setup/
 ├── cloud-watch.tf
 ├── cloud-watch-metrics.tf
 ├── dynamodb.tf
-├── terraform.tfvars
 ```
 
-lalu yang kedua
+dan yang kedua yaitu ansible
 
 ```
 k8s/
@@ -96,11 +92,22 @@ k8s/
 ├── playbook-ip.yaml
 ├── playbook-install-java-baremetal.yaml
 ├── playbook-install-jenkins-baremetal.yaml
+├── playbook-install-terraform-bare-metal.yaml
 ├── playbook-install-kubectl-baremetal.yaml
 ├── playbook-join.yaml
 ├── playbook-kubernetes.yaml
 ├── playbook-pkg.yaml
-|__ playbook-swap.yaml
+├── playbook-swap.yaml
+├── playbook-config.yaml
+├── observ.yaml
+├── observ_2.yaml
+```
+
+yang terakhir di cluster
+
+```
+cluster-side/
+├── alertmanager-telegram.yaml
 ```
 
 dan yang terakhir yang ketiga di cluster 
