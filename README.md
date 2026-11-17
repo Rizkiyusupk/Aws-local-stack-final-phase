@@ -34,7 +34,7 @@ begitu langsung saja masuk ke pembahasanya
 - **Git Bash** : 2.51.1
 - **Terraform** :  v1.15.6
 - **Ansible** : v2.16+
-- **Helm** : v3.x
+- **Helm** : v3.22.0
 - **Telegram Bot** :
 - **KVM** : 8.2.2
 - **QEMU** : 8.2.2
