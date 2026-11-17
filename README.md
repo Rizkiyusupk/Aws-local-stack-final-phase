@@ -40,18 +40,19 @@ begitu langsung saja masuk ke pembahasanya
 - **QEMU** : 8.2.2
 - **Libvirt** : 10.0.0
 - **Alertmanager** : v0.33.1
-- **Loki** : 3.6.7
-- **Loki Canary** : 3.6.7
+- **Loki** :  v6.55.0
+- **Loki Canary** : v6.55.0
 - **Loki Gateway (nginx)** : 1.29-alpine
 - **Grafana** : 13.1.0
 - **Prometheus Operator** : v0.92.1
 - **Prometheus Config Reloader** : v0.92.1
 - **Kube State Metrics** : v2.19.1
-- **Prometheus** : v3.13.1
+- **Prometheus** :  v3.22.0
 - **Node Exporter** : v1.12.0
-- **Promtail** : 3.5.1
+- **Promtail** :  6.17.1
 - **Ngrok**
 - **Gitlab** : SaaS
+  
 ### Reasoning
 Kenapa saya memilih untuk membangun phase 2? karena saya penasaran apakah bisa menintegrasikan aws environtment dengan tools tools stand alone dan ini juga sebagai bentuk 
 pembelajaran bagi saya agar saya familiar dengan service yang ada di aws,dan kenepaa saya memilih untuk menggunakan localstack alasan utamanya  karena gratis
@@ -88,7 +89,6 @@ k8s/
 ├── ansible.cfg
 ├── inventory
 ├── playbook-allow-port.yaml
-├── playbook-enable-service-baremetal.yaml
 ├── playbook-ip.yaml
 ├── playbook-install-java-baremetal.yaml
 ├── playbook-install-jenkins-baremetal.yaml
