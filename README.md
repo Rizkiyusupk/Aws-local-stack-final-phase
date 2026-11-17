@@ -110,9 +110,4 @@ cluster-side/
 ├── alertmanager-telegram.yaml
 ```
 
-dan yang terakhir yang ketiga di cluster 
 
-```
-cluster-side/
-├── alertmanager-telegram.yaml
-```
