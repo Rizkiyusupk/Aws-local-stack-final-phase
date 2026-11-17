@@ -47,7 +47,7 @@ begitu langsung saja masuk ke pembahasanya
 - **Prometheus Operator** : v0.92.1
 - **Prometheus Config Reloader** : v0.92.1
 - **Kube State Metrics** : v2.19.1
-- **Prometheus** :  v3.22.0
+- **Prometheus** :  v65.1.0
 - **Node Exporter** : v1.12.0
 - **Promtail** :  6.17.1
 - **Ngrok**
